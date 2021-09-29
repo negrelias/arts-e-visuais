@@ -1,0 +1,179 @@
+/*=====definicao para a pagina=======*/
+
+*{
+
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(255, 255, 255, 0.315);
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Scheherazade+New&display=swap');
+
+}
+/*=====herder com a imagem dentro com text=======*/
+.image{
+    width: 100%;
+    height: 200px;
+    background:url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+    opacity: 0.75;
+}
+
+h1.text{
+    position: absolute;
+    text-align: center;
+
+    
+
+}
+
+h1{
+    color:yellow;
+    text-shadow:4px 4px;
+    font-size: 100px;
+    font-family: "Helvetica Neue", Helvetica, Arial,;
+    text-align: center;
+    padding-top:40px;
+    font-weight: bold;
+    opacity: 0.80;
+}
+
+/*=====navbar=======*/
+
+.navbar{
+    width:100%;
+    height:70px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color:rgba(211, 211, 211, 0.575);
+    
+}
+
+
+
+.navbar li{
+   
+    display:inline;
+    margin:60px;
+    padding-left:60px;
+    font-size:40px;
+    margin-top: 15px;
+    
+    
+}
+
+.navbar a{
+    text-decoration:none;
+    color:blue;
+    
+   
+    
+    
+}
+
+.navbar a:hover{
+    color:white;
+}
+
+
+/*=====main section junto com section=======*/
+
+.pincel{
+    width:100%;
+    height:100px;
+    background-color:mediumspringgreen;
+    padding-top: 25px;
+    padding-left: 30px;
+    opacity: 0.80;
+    font-size: 25px;
+    font-family: helvetica;
+}
+
+.molturas{
+    width:100%;
+    height:100px;
+    background-color:lightcoral;
+    padding-top: 25px;
+    padding-left: 30px;
+    opacity: 0.80;
+    font-size: 25px;
+    font-family: helvetica;
+}
+
+
+.pinta{
+    width:100%;
+    height:100px;
+    background-color:skyblue;
+    padding-top: 25px;
+    padding-left: 30px;
+    opacity: 0.8;
+    font-size: 25px;
+    font-family: helvetica;
+}
+
+img{
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 3px 0px 3px 0px ;
+}
+        
+   
+
+h2{
+    color:white;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+h3{
+    font-size:40px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size:30px;
+}
+
+
+
+
+/*=====forulario=======*/
+
+
+form{
+    margin:5px;
+    width:400px;
+    padding-top: 25px;
+    height:200px;
+    padding-left: 6px;
+    font-size: 25px;
+    box-shadow: 3px 2px 2px 4px;
+    
+    
+}
+
+label{
+    margin-left: 5px;
+}
+
+input{
+    margin:10px;
+    height: 100%;
+    margin-bottom: 5px;
+    
+    
+    
+}
+
+
+
+
+
